@@ -31,6 +31,7 @@ Bu proje mobil yazılımlar dersi için hazırlanmıştır.
 <li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
 <li><a href="https://github.com/square/okhttp">OkHttp</a></li>
 <li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
+<li><a href="https://developer.android.com/reference/java/util/Observer">Observer</a></li>
 
 License
 --------
