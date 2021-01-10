@@ -27,9 +27,11 @@ Bu proje mobil yazılımlar dersi için hazırlanmıştır.
 </p>
 
 ## Kullanılan Teknolojiler
-<li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel ">ViewModel</a></li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/coroutines" >Corountines</a></li> 
- 
+
+<li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
+<li><a href="https://github.com/square/okhttp">OkHttp</a></li>
+<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
+
 License
 --------
 
