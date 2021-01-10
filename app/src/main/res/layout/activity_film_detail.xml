@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FilmDetailActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgHeader"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/banner_size"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/banner" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/cardview_info_text_size">
+
+                <TextView
+                    android:id="@+id/txtFilmDetailName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/film_details_item_padding"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/film_detail_name_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/star_icon_margin_right"
+                    android:src="@drawable/star"></ImageView>
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/imdb_point"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/cardview_margin"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtImdb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/star_icon_margin_right"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/cardview_margin" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/cardview_info_text_size">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="@string/film_type"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/cardview_margin"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtFilmType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="TextView"
+                        android:textSize="@dimen/cardview_margin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="@string/film_country"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/cardview_margin"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtCountry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="TextView"
+                        android:textSize="@dimen/cardview_margin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="@string/film_duration"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/cardview_margin"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDuration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="TextView"
+                        android:textSize="@dimen/cardview_margin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="@string/relase_date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/cardview_margin"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtReleaseDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="TextView"
+                        android:textSize="@dimen/cardview_margin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="@string/film_director"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/cardview_margin"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDirector"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/film_details_item_padding"
+                        android:text="TextView"
+                        android:textSize="@dimen/cardview_margin" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/film_details_item_padding"
+                    android:text="@string/film_plot"
+                    android:textColor="@color/teal_700"
+                    android:textSize="@dimen/film_detail_plot_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtPlot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/film_details_item_padding"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/cardview_margin" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

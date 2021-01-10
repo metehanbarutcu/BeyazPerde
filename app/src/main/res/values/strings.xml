@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ibrahim_metehan_barutcu</string>
+
+    <string name="exit_app">Uygulamadan Çıkılsın Mı?</string>
+    <string name="please_wait">Lütfen Bekleyiniz..</string>
+    <string name="exit_title">Çıkış</string>
+    <string name="exit_yes">Evet</string>
+    <string name="exit_no">Hayır</string>
+    <string name="internet_alert_title">İnternet Bağlantınız Yok</string>
+    <string name="internet_app">Uygulamayı kullanmak için internete bağlayın.</string>
+    <string name="close_app">Kapat</string>
+    <string name="open_internet">İnterneti Aç</string>
+    <string name="relase_date">Tarih:</string>
+    <string name="film_type">Tür:</string>
+    <string name="film_duration">Süre:</string>
+    <string name="imdb_point">IMDB:</string>
+    <string name="film_plot">Özet:</string>
+    <string name="film_country">Ülke:</string>
+    <string name="film_director">Yönetmen:</string>
+
+</resources>
